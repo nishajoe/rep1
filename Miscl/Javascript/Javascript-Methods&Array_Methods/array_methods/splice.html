@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Doc</title>
+</head>
+
+<body>
+    <script>
+        //splice -as to remove elements from the array
+        let fruits = ["Apple", "Mango", "orange", "grapes", "Banana"];
+        // let result = fruits.splice(1, 3);
+        // document.write(result);      //Here the removed array elements are printd from index1 to index 4.
+        //if we print fruits instead of giving the spliced elements, we will get the array after removing the elements.
+        document.write("<br>" + fruits); //printing the modified array of fruits after removing elements
+
+
+        fruits.splice(2); //removed every elements starting from index 2
+        document.write("<br>" + fruits);
+
+
+        // //splice -as to add elements from the array//
+        // let fruits = ["Apple", "Mango", "orange", "grapes", "Banana"];
+        // fruits.splice(2, 0, "pear");  //if we give 0 as the secnd parameter, the values will be added to the array.
+        // document.write("<br>" + fruits);
+
+
+
+        // let fruits = ["Apple", "Mango", "orange", "grapes", "Banana"];
+        // fruits.splice(2, 1, "pear");  //if we give the secnd parameter, the values will be added to the index specified
+        // // as per first parameter, removing the number of elements specified as per the second parameter.
+        
+        // document.write("<br>" + fruits);
+
+
+    </script>
+</body>
+
+</html>

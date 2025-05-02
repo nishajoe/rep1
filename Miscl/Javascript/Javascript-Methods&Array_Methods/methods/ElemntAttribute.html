@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>Doc</title>
+</head>
+
+<body>
+    <img id="image" src="s.png" alt="First Pic" width="400">
+    <button onclick="change()">Change Image</button>
+
+    <script>
+        function change() {
+            let i = document.getElementById("image");
+            //here attributes are directly changed. so using element attribute as well as set attribute you can set or change values.
+            i.src = "s1.png";
+            i.alt = "Changed pic";
+            i.width = "350";
+        }
+    </script>
+</body>
+
+</html>

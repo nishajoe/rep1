@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>Doc</title>
+</head>
+
+<body>
+    <p id="para">This is a paragrapgh to be changed</p>
+    <button onclick="change()">Replace</button>
+
+    <script>
+        function change() {
+            let b = document.body;
+            let a = document.getElementById("para");
+            let n = document.createElement("p");
+            n.textContent = "This is the changed text";
+            b.replaceChild(n, a);
+        }
+    </script>
+</body>
+
+</html>
