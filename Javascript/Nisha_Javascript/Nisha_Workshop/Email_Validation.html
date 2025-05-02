@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>Doc</title>
+</head>
+
+<body>
+    <form name="myForm" onsubmit="return checkEmail(document.myForm.email)">
+        Email: <input id="mail" type="email" name="email"><br><br>
+        <input type="Submit" value="Submit">
+    </form>
+
+    <script>
+        function checkEmail(emailId) {
+            var pattern = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+            if (emailId.value.match(pattern)) {
+                document.myForm.text.focus();
+                return true;
+            }
+            else {
+                alert("Invalid email address!");
+                document.myForm.text.focus();
+                return false;
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Doc</title>
+</head>
+
+<body>
+    <form>
+        Alphabet Validation: <input type="text" name="mobile" size="30">
+        <button onclick="validate(document.getElementsByName('mobile')[0].value)">Submit</button>
+    </form>
+    <script>
+        function validate(string) {
+            var testName = /^[A-Za-z]+$/;
+            if (string !== "") {
+                if (!testName.test(string)) {
+                    alert("Enter alphabets only!");
+                }
+                else {
+                    alert(string);
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

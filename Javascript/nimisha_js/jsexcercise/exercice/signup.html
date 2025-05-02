@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display: flex;
+    width:950px;
+    height: 500px;
+    background-color: lightskyblue;
+    margin-top: 80px;
+    margin-left: 200px; 
+    border-radius:40px ;
+    
+}
+h2{
+    padding-top:30px;
+}
+img{   
+    padding: 120px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: -47px;
+    }
+
+
+
+
+
+.submit{
+    background-color: midnightblue;
+    border-radius: 18px;
+  
+    width: 100px;
+    height: 50px;
+    color: white;
+}    
+
+    </style>
+
+</head>
+<body>
+   <div class="box">
+    
+     
+        <img src="istockphoto-1281150061-612x612.jpg" alt="" width="540px" height="380px">
+     
+    
+        
+        <form name="myForm" >
+          
+            <h2> sign up here</h2>
+       <label for="">  first name:</label><input type="text" name="fname"><br><br>
+            
+      <label for="">  last name:</label><input type="text" name="fname"><br><br>
+        <label for="">phone:</label><input type="text" name="fname"><br><br>
+        <label for="">user name:</label><input type="text" name="fname"><br><br>
+       <label for=""> password:</label><input type="password" name="fname"><br><br>
+            <button class="submit" onclick="validationForm()" >sign up</button><br><br>
+      already user?      <a href="login.html">sign up</a>
+        </form>
+    </div>
+
+           <script>
+            function validationForm(){
+                var x =document.forms["myForm"]["fname"].value;
+                if(x==null || x==""){
+                    alert("Registered successfully");
+                    return false;
+                }
+              
+            }
+           </script> 
+ 
+   
+   </div>
+ 
+</body>
+</html>

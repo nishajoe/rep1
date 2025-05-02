@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>Doc</title>
+</head>
+
+<body>
+
+    <img id="image" src="i.jpg" width="100px" height="100px" onmouseover="change()" onmouseout="change_again()" />
+
+
+    <script>
+        function change() {
+
+            document.getElementById("image").src = "image.jpg"; // one form of accessing the src of img
+
+        }
+
+        function change_again() {
+
+            let i = document.getElementById("image");     //another way of accessing src of img
+            i.src = "i.jpg";
+
+        }
+
+    </script>
+</body>
+
+</html>

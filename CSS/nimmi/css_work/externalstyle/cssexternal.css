@@ -1,0 +1,16 @@
+.body{
+    background-image:url(aitrich_technologies_logo.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+h1{
+    background-color: #d13400ef;
+    text-align: center;
+    color: #a5a520;
+    
+    border: 10px solid bl;
+}
+.div{
+    height: 300px;
+    width: 600px;
+}

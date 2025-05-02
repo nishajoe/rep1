@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Doc</title>
+</head>
+
+<body>
+
+    <button onclick="show_confirm()">Click Me</button>
+
+
+    <script>
+        function show_confirm() {
+            var status = confirm("Press a button!");
+            if (status == true) {
+                alert("You pressed OK!");
+            }
+            else {
+                alert("You pressed cancel!");
+            }
+        }
+
+    </script>
+</body>
+
+</html>

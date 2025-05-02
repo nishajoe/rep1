@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List with Image Icons</title>
+    <style>
+        ul {
+            list-style: none; /* Remove default bullet points */
+            padding: 0;
+        }
+
+        li {
+            font-size: 18px;
+            margin-bottom: 10px; /* Add spacing between list items */
+            display: flex;
+            align-items: center;
+        }
+
+        /* Add image before each list item */
+        li::before {
+            content: "";
+            display: inline-block;
+            width: 25px;  /* Set the width of the icon */
+            height: 25px; /* Set the height of the icon */
+            background-image: url('image1.png'); /* Replace with your image */
+            background-size: cover; /* Resize the image to fit */
+            background-repeat: no-repeat;
+            margin-right: 10px; /* Space between icon and text */
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ul>
+
+</body>
+</html>

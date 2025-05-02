@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <title>Signup</title>
+    <!-- <link rel="stylesheet" type="text/css" href="signup.css"> -->
+
+    <style>
+        .box {
+
+            width: 750px;
+            height: 400px;
+            background-color: lightskyblue;
+            margin-top: 80px;
+            margin-left: 200px;
+            border-radius: 40px;
+            /* position: absolute; */
+
+        }
+
+        .img1 {
+            width: 358x;
+            height: 345px;
+            padding: 25px 0px 26px 20px;
+            position: absolute;
+
+        }
+
+        h1 {
+            padding: 35px 0px 0px 460px;
+            position: relative;
+
+        }
+
+        .f {
+            position: relative;
+            padding: 35px 0px 0px 460px;
+        }
+
+
+        .submit {
+            background-color: midnightblue;
+            border-radius: 18px;
+            width: 100px;
+            height: 50px;
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+
+        <img class="img1" src="signup.jpg">
+        <h1>Signup here</h1>
+        <form class="f">
+            <label>Firstname: </label>&nbsp;<input type="text" name="fname"><br>
+            <label>Lastname: </label>&nbsp;<input type="text" name="lname"><br>
+            <label>Phone:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="phnnumbr"><br>
+            <label>Username: </label>&nbsp;<input type="text" name="Username"><br>
+            <label>Password:</label>&nbsp;&nbsp;&nbsp;<input type="password" name="Password"><br>
+            <button class="submit" onclick="msg()">Signup</button><br>
+            <label>Already user</label>
+            <a href="login.html">login</a>
+        </form>
+
+
+    </div>
+</body>
+<script>
+    function msg() {
+        alert("Registered Successfully");
+    }
+</script>
+
+</html>

@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <input type="text" size="30" value="give focus" name="input1"
+   onfocus="this.value='tou gave this box the focus'"> <br/>
+
+   <input type="text" size="30" value="selct me" name="input2"
+   onselect="alert('selceted')"> <br/>
+
+   <input type="text" size="30" value="give focus" name="input1"
+   onchange="hai(this.value)"> <br/>
+   <script>
+    function hai(value){
+        alert('change input value :'+value)
+    }
+   </script>
+</body>
+</html>

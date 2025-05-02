@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Doc</title>
+</head>
+
+<body>
+    <form>
+        Phone: <input type="text" name="mobile" size="30" onkeypress="return num_only(event)">
+    </form>
+    <script>
+        function num_only(event) {//event or any name can be given
+            var charCode = event.keyCode;
+            if (charCode < 48 || charCode > 57) {
+                alert("Enter numbers only!");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+
+</html>

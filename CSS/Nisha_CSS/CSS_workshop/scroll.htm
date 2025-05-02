@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p,div{
+            display: block;
+            margin-left: 225px;
+         }
+        .scroll{
+            background-color: aquamarine;
+            width: 120px;
+            height: 150px;
+            /* overflow:visible //without scroll, the data is fully visible  */
+            overflow: scroll;
+        }
+        .hidden{
+            background-color: burlywood;
+            width: 120px;
+            height: 150px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <p><b>Overflow:scroll</b></p>
+    <div class="scroll">The overflow property specifies what to do if the content
+         of an element exceeds the size of the element's box. 
+        To have a better control of the layout you can use it.
+        The default value is visible. </div><br><br>
+
+    <p><b>Overflow:hidden</b></p>
+    <div class="hidden">The overflow property specifies what to do if the content
+        of an element exceeds the size of the element's box. 
+       To have a better control of the layout you can use it.
+       The default value is visible. </div>
+</body>
+</html>

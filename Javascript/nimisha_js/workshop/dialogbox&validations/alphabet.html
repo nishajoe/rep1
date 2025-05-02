@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        Alphabet validation: <input type="text" name="mobile" size="30" >
+        
+        <button onclick="strValidate(document.getElementsByName('mobile')[0].value)">Submit</button>
+        
+        </form>
+        
+        <script>
+        
+        function strValidate(string) {
+        
+        if (string !== "") {
+        
+        var testName = /^([a-z]1[A-Z])+$/;
+        
+        if (!testName.test(string)) 
+        {
+        
+        alert("Enter only alphabetic values.");
+        
+        } else {
+        
+        alert(string);
+        
+        }
+        
+        }
+    }
+        
+        </script>
+</body>
+</html>

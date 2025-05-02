@@ -1,0 +1,60 @@
+<!-- <div style="display: flex; border: 2px solid blue;">
+    <p>Item 1</p>
+    <p>Item 2</p>
+    <p>Item 3</p>
+</div>
+<div style="background-color: lightgray;">This text moves to the next line.</div> -->
+<!-- <div style="display: inline-flex; border: 2px solid red;">
+    <p>Item 1</p>
+    <p>Item 2</p>
+    <p>Item 3</p>
+</div>
+<span style="background-color: yellow;">This text stays in the same line.</span> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex vs Inline-Flex</title>
+    <style>
+        .flex-box {
+            display: flex;
+            border: 2px solid blue;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .inline-flex-box {
+            display: inline-flex;
+            border: 2px solid red;
+            padding: 10px;
+        }
+        .item {
+            background-color: lightgray;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Flex Example -->
+    <div class="flex-box">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <div>This text moves to a new line because `flex` is block-level.</div>
+
+    <br>
+
+    <!-- Inline-Flex Example -->
+    <div class="inline-flex-box">
+        <div class="item">Item A</div>
+        <div class="item">Item B</div>
+        <div class="item">Item C</div>
+    </div>
+    <span>This text stays in the same line because `inline-flex` is inline-level.</span>
+
+</body>
+</html>

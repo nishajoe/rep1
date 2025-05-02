@@ -1,0 +1,24 @@
+.input{
+  border-style: hidden;
+  
+  background-color: gray;
+  
+}
+td{
+  width:30px;
+
+}
+table{
+  width: 340px;
+  height:400px;
+  background-color: gray;
+}
+.number{
+  width: 100%;
+  height: 90%;
+  background-color: lightskyblue;
+}
+.button{
+width: 50%;
+height:50%
+}

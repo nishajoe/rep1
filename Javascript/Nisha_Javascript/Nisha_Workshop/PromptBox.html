@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>Doc</title>
+</head>
+
+<body>
+    <button onclick="msg()">Prompt</button>
+
+    <script>
+        function msg() {
+
+            var val = prompt("What is your favourite colour? ", "Red");
+            if (val) {
+                alert("Your favourite colour is  " + val);
+            }
+            else {
+                alert("You pressed cancel or not entered any value!");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
