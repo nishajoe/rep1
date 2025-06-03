@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Doc</title>
+</head>
+
+<body>
+    <p id="para1">This is paragraph 1</p>
+    <p id="para2">This is paragraph 2</p>
+    <button onclick="firstChange()">Change First Paragraph</button>
+    <button onclick="secondChange()">Change second Paragraph</button>
+    <script>
+        function firstChange() {
+            document.getElementById("para1").innerText = "Changed first paragraph";
+        }
+
+        function secondChange() {
+            document.getElementById("para2").innerText = "Changed second paragraph";
+        }
+    </script>
+</body>
+
+</html>

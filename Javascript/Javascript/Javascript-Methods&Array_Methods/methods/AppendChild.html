@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title>Doc</title>
+</head>
+
+<body>
+    <button onclick="addPara()">Paragraph</button>
+
+    <script>
+        function addPara() {
+            let newParagraph = document.createElement("p");
+            newParagraph.textContent = "Hello how are you!....";
+            document.body.appendChild(newParagraph); //document.body can be set to another variable also.
+
+        }
+    </script>
+</body>
+
+</html>

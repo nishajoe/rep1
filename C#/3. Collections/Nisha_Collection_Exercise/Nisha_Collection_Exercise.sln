@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nisha_Collection_Exercise", "Nisha_Collection_Exercise\Nisha_Collection_Exercise.csproj", "{341E1B51-2376-4F2B-ADB2-DC97E34B6386}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{341E1B51-2376-4F2B-ADB2-DC97E34B6386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341E1B51-2376-4F2B-ADB2-DC97E34B6386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341E1B51-2376-4F2B-ADB2-DC97E34B6386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341E1B51-2376-4F2B-ADB2-DC97E34B6386}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C9E8DF5-2E3A-4E88-8B66-49AA71256F69}
+	EndGlobalSection
+EndGlobal

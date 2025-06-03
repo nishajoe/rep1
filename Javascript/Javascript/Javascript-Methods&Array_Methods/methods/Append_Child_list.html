@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Doc</title>
+</head>
+
+<body>
+    <ul id="list">
+        <li>coffee</li>
+        <li>Tea</li>
+    </ul>
+
+    <button onclick="addItem()">Add list item</button>
+
+    <script>
+        function addItem() {
+            let b = document.getElementById("list");
+            let a = document.createElement("li");
+            a.textContent = "new";
+            b.appendChild(a);
+        }
+
+    </script>
+</body>
+
+</html>

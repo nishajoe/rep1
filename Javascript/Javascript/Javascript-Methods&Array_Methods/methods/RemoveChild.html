@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title>Doc</title>
+</head>
+
+<body>
+    <p id="para">This is a paragraph to be removed</p>
+    <button onclick="paraChange()">Paragraph Change</button>
+
+    <script>
+        function paraChange() {
+            let b = document.body;   //accessing the parent element(body)
+            let paragraph = document.getElementById("para");    //select the <p> element to remove
+            b.removeChild(paragraph);        //remove the <p> element from the body
+        }
+    </script>
+</body>
+
+</html>

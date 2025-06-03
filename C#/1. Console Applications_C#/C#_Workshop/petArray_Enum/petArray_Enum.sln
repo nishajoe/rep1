@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "petArray_Enum", "petArray_Enum\petArray_Enum.csproj", "{4CB00FC3-3F72-49A7-A976-CF07E6BE7AE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CB00FC3-3F72-49A7-A976-CF07E6BE7AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB00FC3-3F72-49A7-A976-CF07E6BE7AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB00FC3-3F72-49A7-A976-CF07E6BE7AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB00FC3-3F72-49A7-A976-CF07E6BE7AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A56B259-A081-4A59-A027-3618002D1B93}
+	EndGlobalSection
+EndGlobal

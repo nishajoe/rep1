@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>factorial</title>
+</head>
+
+<body>
+    <script>
+        let num = Number(prompt("Enter a number: "));
+        let i = num;
+        let fact = 1;
+        do {
+            fact = fact * num;
+            num--;
+        } while (num >= 1);
+        document.write("Factorial of " + i + " is: " + fact);
+    </script>
+</body>
+
+</html>
