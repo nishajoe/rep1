@@ -1,0 +1,6 @@
+@AutoScaffStudent_HostAddress = http://localhost:5230
+
+GET {{AutoScaffStudent_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

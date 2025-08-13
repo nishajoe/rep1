@@ -1,0 +1,6 @@
+@Service_Repo_Product_HostAddress = http://localhost:5037
+
+GET {{Service_Repo_Product_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@Manual_Controller_Book_HostAddress = http://localhost:5066
+
+GET {{Manual_Controller_Book_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@WO_DB_UsingList_HostAddress = http://localhost:5008
+
+GET {{WO_DB_UsingList_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
